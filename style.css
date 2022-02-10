@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.header {
+    display: flex;
+    background-color: #266637;
+}
+
+.header img {
+    height:32px ;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    text-decoration: none;
+}
