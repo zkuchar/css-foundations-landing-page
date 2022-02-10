@@ -15,7 +15,7 @@ body {
     background-color: #266637;
     color: whitesmoke;
     width: 100%;
-    padding: 5px 75px;
+    padding: 5px 15%;
     align-items: center;
     gap: 8px;
     position: fixed;
@@ -40,31 +40,80 @@ body {
     margin-left: auto;
 }
 
-.header-link {
+.header-link  {
     text-decoration: none;
-    color: #e5e7eb;    
+    color: #e5e7eb;  
+    font-size: 18px;  
 }
 
 .splash {
     display: flex;
     background-color: #266637;
     color: whitesmoke;
-    flex: 1;
+    height: fit-content;
     margin-top: 42px;
-    padding: 30px 75px 30px 75px;
+    padding: 30px 15% 30px 15%;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
  
 }
 
 .splash-info {
     display: flex;
-    flex-direction: column;
+
+    gap: 15px;
     flex: 1;
+    height: 350px;
+    align-items: center;
 }
 
-.splash img {
-    width: 150px;
-    height: auto;
-    flex: 1 ;
+.hero-block{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 300px;
+}
+
+.splash-info img {
+    flex: 1 1 100;
+    width: 50%;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-sub {
+    font-size: 16px;
+}
+
+.splash-info a{
+    text-decoration: none;
+    flex: 0 1 auto;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: #43a724;
+    color: whitesmoke;  
+    font-size: 18px;  
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.info {
+    flex: 1;
+    display: flex;
 }
