@@ -50,7 +50,7 @@ body {
     display: flex;
     background-color: #266637;
     color: whitesmoke;
-    height: fit-content;
+    height: 400px;
     margin-top: 42px;
     padding: 30px 15% 30px 15%;
     align-items: center;
@@ -61,7 +61,7 @@ body {
 .splash-info {
     display: flex;
 
-    gap: 15px;
+    gap: 30px;
     flex: 1;
     height: 350px;
     align-items: center;
@@ -77,8 +77,8 @@ body {
 }
 
 .splash-info img {
-    flex: 1 1 100;
-    width: 50%;
+    flex: 0 1 auto;
+    height: 300px;
 }
 
 .hero {
@@ -88,7 +88,7 @@ body {
 }
 
 .hero-sub {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .splash-info a{
