@@ -15,7 +15,7 @@ body {
     background-color: #266637;
     color: whitesmoke;
     width: 100%;
-    padding: 5px 15%;
+    padding: 5px 20%;
     align-items: center;
     gap: 8px;
     position: fixed;
@@ -52,7 +52,7 @@ body {
     color: whitesmoke;
     height: 400px;
     margin-top: 42px;
-    padding: 30px 15% 30px 15%;
+    padding: 30px 20% 30px 20%;
     align-items: center;
     justify-content: center;
     gap: 15px;
@@ -118,7 +118,7 @@ button {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 20px 15%;
+    padding: 20px 20%;
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -138,6 +138,7 @@ button {
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex: 1;
 
 
 }
@@ -145,11 +146,11 @@ button {
 .spirit-card {
     display: flex;
     flex-direction: column;
-    width: 15%;
     align-items: center;
     text-align: center;
     font-size: 12px;
     padding: 5px;
+    flex: 1;
 }
 
 .spirit-card img {
@@ -168,7 +169,7 @@ button {
     display: flex;
     height: 300px;
     background-color: #e5e7eb;
-    padding: 5px 15%;
+    padding: 5px 20%;
     align-items: center;
     justify-content: center;
 }
@@ -197,7 +198,7 @@ button {
 .call-section {
     display: flex;
     flex-direction: column;
-    padding: 50px 15%;
+    padding: 50px 20%;
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -246,7 +247,7 @@ button {
         background-color: #266637;
         color: whitesmoke;
         width: 100%;
-        padding: 5px 15%;
+        padding: 5px 20%;
         justify-content: center;
         align-items: center;
         text-align: center;
