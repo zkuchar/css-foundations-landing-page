@@ -193,3 +193,50 @@ button {
     font-size: 14px;
     font-weight: bold;
 }
+
+.call-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call {
+    display: flex;
+    background-color: #43a724;
+    flex: 1;
+    border-radius: 5px;
+    padding: 15px 50px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-text {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-text h1 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.call-text p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.call a{
+    text-decoration: none;
+}
+
+.call a button {
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+}
