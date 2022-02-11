@@ -117,10 +117,12 @@ button {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 10px 15%;
+    padding: 20px 15%;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    height: 400px;
+
 
 }
 
@@ -136,13 +138,13 @@ button {
     gap: 40px;
     justify-content: center;
 
+
 }
 
 .spirit-card {
     display: flex;
     flex-direction: column;
     width: 15%;
-    height: 400px;
     align-items: center;
     text-align: center;
     font-size: 12px;
@@ -159,4 +161,11 @@ button {
 
 .spirit-card p {
     width: 150px;
+}
+
+.quote-section {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #e5e7eb;
 }
