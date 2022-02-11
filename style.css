@@ -240,3 +240,16 @@ button {
     border: 1px solid whitesmoke;
     font-size: 12px;
 }
+
+.footer {
+        display: flex;
+        background-color: #266637;
+        color: whitesmoke;
+        width: 100%;
+        padding: 5px 15%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    
+}
